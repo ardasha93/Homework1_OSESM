@@ -1,0 +1,4 @@
+Status:Optimal
+x1=10.0
+x2=20.0
+Optimal Solution= 210.0
