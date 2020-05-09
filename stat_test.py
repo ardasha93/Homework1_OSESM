@@ -20,4 +20,3 @@ def variance_test():
 
 def stDev_test():
     assert stDev(testList) == 6.56
-   
