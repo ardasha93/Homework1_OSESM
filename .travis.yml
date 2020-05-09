@@ -4,4 +4,4 @@ python:
 
 #command to run tests
 script:
-  -pytest
+  -stat_test
