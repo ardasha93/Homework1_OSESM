@@ -1,4 +1,4 @@
 linters:
-	flake8:
-		max-line-length: 79
-		python: 3
+  flake8:
+    max-line-length: 79
+    python: 3
