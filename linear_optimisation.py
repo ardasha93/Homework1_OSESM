@@ -18,7 +18,7 @@ def solveProblem(c):
     x1 = p.LpVariable("x1", 0, None, p.LpInteger)
     x2 = p.LpVariable("x2", 0, None, p.LpInteger)
     # objective function
-    problem += c[0][0]*x1 + c[0][1]*x2, "Maximise" 
+    problem += c[0][0]*x1 + c[0][1]*x2, "Maximise"
     for i in range(1, len(c)):
         # constraints are entered
         problem += c[i][0]*x1 + c[i][1]*x2 <= c[i][2], "Contstraint {}".format(i)
