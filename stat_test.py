@@ -12,3 +12,11 @@ def readNumbers_test():
 
 def mean_test():
     assert mean(testList) == 8.0
+
+
+def variance_test():
+    assert variance(testList) == 43.0
+
+
+def stDev_test():
+    assert stDev(testList) == 6.56    
