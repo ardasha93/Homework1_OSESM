@@ -5,10 +5,11 @@ Created on Sat May  9 10:50:05 2020
 @author: akhatova
 """
 
-def readFile():
-    with open("input_stat.txt", 'r') as file:
-        t = [float(line) for line in file]
-    return t
+
+def readNumbers():
+	with open("input_stat.txt", 'r') as file:
+		t = [float(line) for line in file]
+	return t
 
 
 def mean(n):
@@ -17,6 +18,6 @@ def mean(n):
 		s += i
 	return s/len(n)
 
-x = readFile()
+x = readNumbers()
 print(x)
 print(mean(x))
