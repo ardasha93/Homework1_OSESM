@@ -2,5 +2,5 @@
 linters:
   flake8:
     python: 3
-    max-line-length: 90
+    max-line-length: 100
     fixer: true
