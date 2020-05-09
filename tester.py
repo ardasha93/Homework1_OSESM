@@ -1,6 +1,6 @@
 # tester.py
 
-from linear_optimisation.py import readFile, solveProblem
+from linear_optimisation import readFile, solveProblem
 
 
 def readFile_test():
