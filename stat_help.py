@@ -4,13 +4,12 @@ Created on Sat May  9 10:50:05 2020
 
 @author: akhatova
 """
-
-
- # function for reading the numbers from the file
+# function for reading the numbers from the file
 def readNumbers():
     with open("input_stat.txt", 'r') as file:
         n = [float(line) for line in file]
     return n
+
 
 # function for calculating the mean
 def mean(n):
@@ -32,14 +31,14 @@ def variance(n):
 # function for calculating the standar variation
 def stDev(n):
     var = variance(n)
-    return round(var**(0.5),2)
+    return round(var**(0.5), 2)
 
 
 # printing the results
 x = readNumbers()
 m = mean(x)
 v = variance(x)
-std=stDev(x)
+std = stDev(x)
 print(x)
 print(m)
 print(v)
