@@ -8,7 +8,7 @@ Created on Sat May  9 10:50:05 2020
 
 def readNumbers():
     with open("input_stat.txt", 'r') as file:
-    t = [float(line) for line in file]
+        t = [float(line) for line in file]
     return t
 
 
