@@ -8,4 +8,4 @@ def readFile_test():
 
 
 def solveProblem_test():
-	assert solveProblem([[9, 6], [2, 1, 40], [1, 2, 50]]) == [10.0, 20.0]
+    assert solveProblem([[9, 6], [2, 1, 40], [1, 2, 50]]) == [10.0, 20.0]
