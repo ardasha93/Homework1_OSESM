@@ -4,6 +4,8 @@ Created on Sat May  9 10:50:05 2020
 
 @author: akhatova
 """
+
+
 # function for reading the numbers from the file
 def readNumbers():
     with open("input_stat.txt", 'r') as file:
