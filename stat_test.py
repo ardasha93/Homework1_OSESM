@@ -11,7 +11,7 @@ def readNumbers_test():
 
 
 def mean_test():
-    assert mean(testList) == 8.0
+    assert mean(testList) == 9.0
 
 
 def variance_test():
