@@ -28,8 +28,6 @@ def variance(n):
     for i in n:
         v += (i-m)**2
     return v/len(n)
-    
-    
 
 
 # function for calculating the standar variation
